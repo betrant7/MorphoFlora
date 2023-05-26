@@ -9,7 +9,14 @@
         android:id="@+id/titleFragment"
         android:name="com.theinternational091.morphoflora.titleFragment"
         android:label="fragment_title"
-        tools:layout="@layout/fragment_title" />
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_tumbuhan"
+            app:destination="@id/tumbuhan" />
+        <action
+            android:id="@+id/action_titleFragment_to_bunga"
+            app:destination="@id/bunga" />
+    </fragment>
     <fragment
         android:id="@+id/bunga"
         android:name="com.theinternational091.morphoflora.bunga"
@@ -19,7 +26,11 @@
         android:id="@+id/tumbuhan"
         android:name="com.theinternational091.morphoflora.tumbuhan"
         android:label="fragment_tumbuhan"
-        tools:layout="@layout/fragment_tumbuhan" />
+        tools:layout="@layout/fragment_tumbuhan" >
+        <action
+            android:id="@+id/action_tumbuhan_to_daun"
+            app:destination="@id/daun" />
+    </fragment>
     <fragment
         android:id="@+id/daun"
         android:name="com.theinternational091.morphoflora.daun"
