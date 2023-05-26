@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.theinternational091.morphoflora.titleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" />
+    <fragment
+        android:id="@+id/bunga"
+        android:name="com.theinternational091.morphoflora.bunga"
+        android:label="fragment_bunga"
+        tools:layout="@layout/fragment_bunga" />
+    <fragment
+        android:id="@+id/tumbuhan"
+        android:name="com.theinternational091.morphoflora.tumbuhan"
+        android:label="fragment_tumbuhan"
+        tools:layout="@layout/fragment_tumbuhan" />
+    <fragment
+        android:id="@+id/daun"
+        android:name="com.theinternational091.morphoflora.daun"
+        android:label="fragment_daun"
+        tools:layout="@layout/fragment_daun" />
+</navigation>
