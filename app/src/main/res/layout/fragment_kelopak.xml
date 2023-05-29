@@ -4,14 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".kelopak" >
+    tools:context=".kelopak"
+    android:background="#90EE90">
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/bgkelopak"
         android:layout_width="455dp"
         android:layout_height="778dp"
         android:src="@drawable/background_kelopak"
-        tools:layout_editor_absoluteX="-22dp"
-        tools:layout_editor_absoluteY="-24dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textkelopak1"
+        android:layout_width="332dp"
+        android:layout_height="174dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Kelopak bunga merupakan bagian bunga paling luar yang menyelimuti mahkota ketika masih kuncup. Fungsi dari kelopak bunga adalah melindungi mahkota bunga ketika masih kuncup dan akan terbuka jika mahkota mekar. Kelopak bunga biasanya warna dan bentuknya menyerupai daun. Setiap helaian kelopak bunga disebut sepal."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bgkelopak"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgkelopak"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/textkelopak2"
+        android:layout_width="332dp"
+        android:layout_height="174dp"
+        android:fontFamily="@font/amaranth"
+        android:text=" Kelopak bunga biasanya warna dan bentuknya menyerupai daun. Setiap helaian kelopak bunga disebut sepal."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bgkelopak"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgkelopak"
+        app:layout_constraintVertical_bias="0.601" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,9 +30,10 @@
         app:cornerRadius="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.69"
+        app:layout_constraintVertical_bias="0.702"
         app:strokeColor="#3E000000"
         app:strokeWidth="2sp" />
 
@@ -48,11 +49,44 @@
         app:cornerRadius="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/Background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTumbuhan"
         app:layout_constraintVertical_bias="0.0"
         app:strokeColor="#3D000000"
         app:strokeWidth="2sp" />
+
+    <TextView
+        android:id="@+id/texthalo"
+        android:layout_width="208dp"
+        android:layout_height="169dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Hai, kawan flora"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/textmari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Mari mengenal tentang"
+        android:textColor="#2e8b57"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnTumbuhan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texthalo"
+        app:layout_constraintVertical_bias="0.958" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

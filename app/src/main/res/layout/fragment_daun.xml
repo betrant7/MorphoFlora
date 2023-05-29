@@ -15,4 +15,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textdaun1"
+        android:layout_width="334dp"
+        android:layout_height="246dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Daun adalah salah satu organ tumbuhan yang tumbuh dari ranting, biasanya berwarna hijau (mengandung klorofil) dan terutama berfungsi sebagai penangkap energi dari cahaya matahari untuk fotosintesis. "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundDaun"
+        app:layout_constraintHorizontal_bias="0.140"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundDaun"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/textdaun2"
+        android:layout_width="333dp"
+        android:layout_height="266dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Daun merupakan organ penting bagi tumbuhan dalam melangsungkan hidupnya karena tumbuhan adalah organisme autotrof obligat, ia harus memasok kebutuhan energinya sendiri melalui konversi energi cahaya matahari menjadi energi kimia."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundDaun"
+        app:layout_constraintHorizontal_bias="0.140"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textdaun1"
+        app:layout_constraintVertical_bias="0.112" />
 </androidx.constraintlayout.widget.ConstraintLayout>

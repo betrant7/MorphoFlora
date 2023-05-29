@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".batang">
+    tools:context=".batang"
+    android:background="#90EE90">
 
     <ImageView
         android:id="@+id/backgroundBatang"
@@ -15,4 +16,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textbatang1"
+        android:layout_width="325dp"
+        android:layout_height="173dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Batang merupakan bagian dari tumbuhan yang amat penting, dan mengingat serta kedudukan batang bagi tubuh tumbuhan, batang dapat disamakan dengan sumbu tubuh tumbuhan."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundBatang"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundBatang"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/textbatang2"
+        android:layout_width="334dp"
+        android:layout_height="246dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Batang adalah sumbu tumbuhan, tempat semua organ lain bertumpu, dan tumbuh. Daun dan akar dianggap sebagai perkembangan lanjutan dari batang untuk menjalankan fungsi yang lebih khusus."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundBatang"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textbatang1" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

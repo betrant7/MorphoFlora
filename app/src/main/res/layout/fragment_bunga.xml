@@ -27,11 +27,11 @@
         android:layout_height="192dp"
         android:backgroundTint="#00F8F8F8"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnTangkai"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.391"
+        app:layout_constraintVertical_bias="0.854"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -54,12 +54,11 @@
         android:layout_width="167dp"
         android:layout_height="64dp"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnTangkai"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.461"
+        app:layout_constraintVertical_bias="0.784"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView

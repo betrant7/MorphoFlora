@@ -5,14 +5,50 @@
     android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".putik">
+    tools:context=".putik"
+    android:background="#90EE90">
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/bgputik"
         android:layout_width="437dp"
         android:layout_height="760dp"
         android:src="@drawable/background_putik"
-        tools:layout_editor_absoluteX="-13dp"
-        tools:layout_editor_absoluteY="-24dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textputik1"
+        android:layout_width="337dp"
+        android:layout_height="172dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Putik merupakan bagian bunga yang paling dalam letaknya. Putik berfungsi sebagai alat kelamin betina pada bunga."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bgputik"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgputik"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/textputik2"
+        android:layout_width="334dp"
+        android:layout_height="246dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Salah satu bagiannya mengandung sel telur. Setelah dibuahi oleh inti sperma yang berasal dari serbuk sari, akhirnya akan berkembang menjadi kandung lembaga yang nantinya akan menjadi tumbuhan baru."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bgputik"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgputik"
+        app:layout_constraintVertical_bias="0.621" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

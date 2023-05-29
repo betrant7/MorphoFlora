@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".akar">
+    tools:context=".akar"
+    android:background="#90EE90">
 
     <ImageView
         android:id="@+id/backgroundAkar"
@@ -15,4 +16,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textakar1"
+        android:layout_width="334dp"
+        android:layout_height="246dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Akar adalah organ tumbuhan yang berperan penting dalam menahan berdirinya tumbuhan dan menyerap air serta nutrisi ke dalam tubuh tumbuhan, yang memungkinkan tumbuhan tumbuh lebih tinggi dan lebih cepat."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundAkar"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundAkar"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/textakar2"
+        android:layout_width="334dp"
+        android:layout_height="246dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Akar sering kali terletak di bawah permukaan tanah, tetapi akar juga bisa mengalami modifikasi dan terspesialisasi."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundAkar"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textakar1"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/bgtangkai"
         android:layout_width="445dp"
         android:layout_height="781dp"
         android:src="@drawable/background_tangkai"
@@ -16,4 +16,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texttangkai1"
+        android:layout_width="332dp"
+        android:layout_height="174dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Tangkai bunga merupakan bagian bunga yang berada pada bagian bawah bunga."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bgtangkai"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgtangkai"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <TextView
+        android:id="@+id/texttangkai2"
+        android:layout_width="332dp"
+        android:layout_height="174dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Fungsi tangkai bunga ialah penghubung antara bunga dengan ranting dan tangkai bunga juga berfungsi sebagai penopang bunga. Tangkai bunga memiliki ukuran diameter yang berbeda-beda sesuai dengan jenisnya. Beberapa tangkai bunga berbentuk merambat atau majemuk, hal ini biasanya dikondisikan sesuai dengan lingkungan hidup bunga."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bgtangkai"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgtangkai"
+        app:layout_constraintVertical_bias="0.457" />
 </androidx.constraintlayout.widget.ConstraintLayout>
