@@ -4,49 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tumbuhan">
-    <ImageView
-        android:id="@+id/Tumbuhan"
-        android:layout_width="606dp"
-        android:layout_height="713dp"
-        android:src="@drawable/pohon"
-        tools:layout_editor_absoluteX="-98dp"
-        tools:layout_editor_absoluteY="-8dp"
-        tools:ignore="MissingConstraints" />
+    tools:context=".tumbuhan"
+    android:background="#90EE90">
 
     <Button
         android:id="@+id/Daun"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Daun"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="411dp"
+        android:layout_height="171dp"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.074" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/Batang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Batang"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="55dp"
+        android:layout_height="79dp"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641" />
+        app:layout_constraintVertical_bias="0.691"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/Akar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Akar"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884" />
+        app:layout_constraintVertical_bias="0.804"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/pohon"
+        android:layout_width="509dp"
+        android:layout_height="589dp"
+        android:src="@drawable/pohon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="345dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/pacifico"
+        android:text="@string/struktur_pohon"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pohon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

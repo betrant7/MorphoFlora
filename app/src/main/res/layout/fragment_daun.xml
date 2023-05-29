@@ -7,15 +7,12 @@
     tools:context=".daun">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="319dp"
-        android:layout_height="247dp"
-        android:src="@drawable/daun"
+        android:id="@+id/backgroundDaun"
+        android:layout_width="597dp"
+        android:layout_height="806dp"
+        android:src="@drawable/background_daun"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

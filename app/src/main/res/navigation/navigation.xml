@@ -8,11 +8,12 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.theinternational091.morphoflora.titleFragment"
-        android:label="fragment_title"
-        tools:layout="@layout/fragment_title" >
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_title">
         <action
             android:id="@+id/action_titleFragment_to_tumbuhan"
-            app:destination="@id/tumbuhan" />
+            app:destination="@id/tumbuhan"
+            app:popUpToInclusive="false" />
         <action
             android:id="@+id/action_titleFragment_to_bunga"
             app:destination="@id/bunga" />
@@ -20,20 +21,106 @@
     <fragment
         android:id="@+id/bunga"
         android:name="com.theinternational091.morphoflora.bunga"
-        android:label="fragment_bunga"
-        tools:layout="@layout/fragment_bunga" />
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_bunga">
+        <action
+            android:id="@+id/action_bunga_to_titleFragment"
+            app:destination="@id/titleFragment" />
+        <action
+            android:id="@+id/action_bunga_to_kelopak"
+            app:destination="@id/kelopak"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/bunga" />
+        <action
+            android:id="@+id/action_bunga_to_putik"
+            app:destination="@id/putik"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/bunga" />
+        <action
+            android:id="@+id/action_bunga_to_tangkai"
+            app:destination="@id/tangkai"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/bunga" />
+    </fragment>
     <fragment
         android:id="@+id/tumbuhan"
         android:name="com.theinternational091.morphoflora.tumbuhan"
-        android:label="fragment_tumbuhan"
-        tools:layout="@layout/fragment_tumbuhan" >
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_tumbuhan">
         <action
             android:id="@+id/action_tumbuhan_to_daun"
-            app:destination="@id/daun" />
+            app:destination="@id/daun"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/tumbuhan"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_tumbuhan_to_titleFragment"
+            app:destination="@id/titleFragment" />
+        <action
+            android:id="@+id/action_tumbuhan_to_batang"
+            app:destination="@id/batang"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/tumbuhan"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_tumbuhan_to_akar"
+            app:destination="@id/akar"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/tumbuhan"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/daun"
         android:name="com.theinternational091.morphoflora.daun"
-        android:label="fragment_daun"
-        tools:layout="@layout/fragment_daun" />
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_daun">
+        <action
+            android:id="@+id/action_daun_to_tumbuhan"
+            app:destination="@id/tumbuhan" />
+    </fragment>
+    <fragment
+        android:id="@+id/batang"
+        android:name="com.theinternational091.morphoflora.batang"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_batang">
+        <action
+            android:id="@+id/action_batang_to_tumbuhan"
+            app:destination="@id/tumbuhan" />
+    </fragment>
+    <fragment
+        android:id="@+id/akar"
+        android:name="com.theinternational091.morphoflora.akar"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_akar">
+        <action
+            android:id="@+id/action_akar_to_tumbuhan"
+            app:destination="@id/tumbuhan" />
+    </fragment>
+    <fragment
+        android:id="@+id/kelopak"
+        android:name="com.theinternational091.morphoflora.kelopak"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_kelopak">
+        <action
+            android:id="@+id/action_kelopak_to_bunga"
+            app:destination="@id/bunga" />
+    </fragment>
+    <fragment
+        android:id="@+id/putik"
+        android:name="com.theinternational091.morphoflora.putik"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_putik">
+        <action
+            android:id="@+id/action_putik_to_bunga"
+            app:destination="@id/bunga" />
+    </fragment>
+    <fragment
+        android:id="@+id/tangkai"
+        android:name="com.theinternational091.morphoflora.tangkai"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_tangkai">
+        <action
+            android:id="@+id/action_tangkai_to_bunga"
+            app:destination="@id/bunga" />
+    </fragment>
 </navigation>

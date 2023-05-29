@@ -5,10 +5,11 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#FFFF"
-    tools:context=".titleFragment">
+    tools:context=".titleFragment"
+    android:id="@+id/fragmentawal">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,15 +18,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/_380"
-        tools:ignore="MissingConstraints" />
+        app:srcCompat="@drawable/_380" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnTumbuhan"
         android:layout_width="133dp"
         android:layout_height="62dp"
         android:backgroundTint="#2e8b57"
-        android:text="Tumbuhan"
+        android:text="@string/tumbuhan"
         android:textSize="16sp"
         app:cornerRadius="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,20 +37,20 @@
         app:strokeWidth="2sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnBunga"
         android:layout_width="129dp"
         android:layout_height="59dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="112dp"
         android:backgroundTint="#2e8b57"
-        android:text="Bunga"
+        android:text="@string/bunga"
         android:textSize="16sp"
         app:cornerRadius="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintBottom_toBottomOf="@+id/Background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btnTumbuhan"
         app:layout_constraintVertical_bias="0.0"
         app:strokeColor="#3D000000"
         app:strokeWidth="2sp" />

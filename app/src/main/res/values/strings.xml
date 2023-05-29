@@ -3,4 +3,14 @@
     <string name="app_name">MorphoFlora</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daun">Daun</string>
+    <string name="batang">Batang</string>
+    <string name="akar">Akar</string>
+    <string name="tumbuhan">Tumbuhan</string>
+    <string name="bunga">Bunga</string>
+    <string name="tangkai">Tangkai</string>
+    <string name="putik">Putik</string>
+    <string name="kelopak">kelopak</string>
+    <string name="struktur_pohon">STRUKTUR POHON</string>
+    <string name="struktur_bunga">STRUKTUR BUNGA</string>
 </resources>
